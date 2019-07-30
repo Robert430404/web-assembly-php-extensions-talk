@@ -1,0 +1,21 @@
+{
+  "name": "robert430404/web-assembly-php-extensions-talk",
+  "description": "This is a simple demo showing your ability to write extensions for php in web assembly.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robert Cox",
+      "email": "robert@studiorclv.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "league/climate": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Robert430404\\WebAssemblyExamples\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+version: '3.0'
+
+services:
+  php_fpm:
+    image: php:fpm
+    container_name: web_assembly_php_container
+    volumes:
+      - ./:/app
